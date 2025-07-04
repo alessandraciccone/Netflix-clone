@@ -1,0 +1,20 @@
+hr{
+
+width: 50%;         /* Puoi usare anche px, es: 200px */
+    margin-left: 40%;
+
+border: 1px solid rgba(158, 167, 174, 0.5);}
+
+::placeholder {
+  color: white;
+  opacity: 1; /* Assicura che il colore sia pienamente visibile */
+}
+form{
+  width: 300px;
+}
+
+.line {
+  border: 1px solid rgba(158, 167, 174, 0.5); /* Corretto: niente virgole tra i valori */
+  width: 100%; /* Imposta una larghezza più corta */
+  margin: 2em auto; /* Centra orizzontalmente */
+  text-align: center;}
